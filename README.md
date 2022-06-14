@@ -18,13 +18,16 @@ Framework Supertest Jest
 
     $ npm test
     
-## package.json Mac
+### Windows vs Linux/Mac
+In <./package.json> scripts section,  change the following to be windows compatible:
+
+    "test": "jest --detectOpenHandles --force-exit "
+
+to (**Spacing is important**)
 
     "test": "sh node_modules/.bin/jest --detectOpenHandles --force-exit "
 
-## package.json windows
 
-    "test": "jest --detectOpenHandles --force-exit "
 
 ## License
 

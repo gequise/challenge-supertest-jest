@@ -2,23 +2,29 @@
 
 Framework Supertest Jest
 
-Tener instalado node https://nodejs.org/en/ > v16.14.0
+# Installation
 
+*Note: This tool requires [Node](http://nodejs.org/download) to be installed!* > v16.14.0
+
+Clone the repository
+
+    git clone <ssh url>
+    
 ## Setup app folder
 
-    $ npm init -y
+    npm init -y
 
 ## Supertest Installation
 
-    $ npm install --save-dev supertest supertest-session
+    npm install --save-dev supertest supertest-session
 
 ## Jest Installation
 
-    $ npm install --save-dev jest
+    npm install --save-dev jest
 
-## Test
+## Run Test
 
-    $ npm test
+    npm test
     
 ### Windows vs Linux/Mac
 In <./package.json> scripts section,  change the following to be windows compatible:

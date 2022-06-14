@@ -17,7 +17,14 @@ Framework Supertest Jest
 ## Test
 
     $ npm test
+    
+## package.json Mac
 
+    "test": "sh node_modules/.bin/jest --detectOpenHandles --force-exit "
+
+## package.json windows
+
+    "test": "jest --detectOpenHandles --force-exit "
 
 ## License
 

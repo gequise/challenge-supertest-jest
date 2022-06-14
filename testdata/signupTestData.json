@@ -1,0 +1,62 @@
+{
+  "signup_whitoutUsers": {
+    "organization": {
+      "name": "Alias Test",
+      "alias": "alias"
+    },
+    "user": {}
+  },
+
+  "signup_whitoutMailUsers": {
+    "organization": {
+      "name": "Alias Test",
+      "alias": "alias"
+    },
+    "user": { "password": "password123!" }
+  },
+
+  "signup_whitoutPasswordUsers": {
+    "organization": {
+      "name": "Alias Test",
+      "alias": "alias"
+    },
+    "user": { "email": "test02@test.com" }
+  },
+  "signup_whitoutAlias": {
+    "organization": {},
+    "user": {
+      "email": "test02@test.com",
+      "password": "PasswordOne123!"
+    }
+  },
+  "signup_whitoutNameAlias": {
+    "organization": {
+      "name": "",
+      "alias": "alias"
+    },
+    "user": {
+      "email": "test02@test.com",
+      "password": "PasswordOne123!"
+    }
+  },
+  "signup_whitoutAliasAlias": {
+    "organization": {
+      "name": "Name Test",
+      "alias": ""
+    },
+    "user": {
+      "email": "test02@test.com",
+      "password": "PasswordOne123!"
+    }
+  },
+  "signup_whitoutNameAndAlias": {
+    "organization": {
+      "name": "  ",
+      "alias": "  "
+    },
+    "user": {
+      "email": "test02@test.com",
+      "password": "PasswordOne123!"
+    }
+  }
+}

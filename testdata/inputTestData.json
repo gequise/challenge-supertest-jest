@@ -1,0 +1,16 @@
+{
+  "visaCardNumberMP": {
+    "VisaCardNumber": "4509953566233704",
+    "securityCode": "123",
+    "month": 11,
+    "year": "2025",
+    "name": "Gustavo Test"
+  },
+
+  "customer": {
+    "firstName": "Gustavo",
+    "lastName": "Equise",
+    "email": "test@rebill.to",
+    "year": "2025"
+  }
+}

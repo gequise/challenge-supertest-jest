@@ -2,6 +2,8 @@
 
 Framework Supertest Jest
 
+Tener instalado node https://nodejs.org/en/ > v16.14.0
+
 ## Setup app folder
 
     $ npm init -y

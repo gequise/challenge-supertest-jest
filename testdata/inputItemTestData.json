@@ -1,0 +1,19 @@
+{
+  "item01": {
+    "prices": [
+      {
+        "frequency": {
+          "type": "days",
+          "quantity": 6
+        },
+        "repetitions": 2,
+        "currency": "ARS",
+        "gatewayId": "5c0a3c30-28ea-4ca2-a1ba-32add6fea6c8",
+        "amount": "200",
+        "type": "fixed"
+      }
+    ],
+    "name": "Item01",
+    "description": "Test Description"
+  }
+}

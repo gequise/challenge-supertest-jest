@@ -1,0 +1,10 @@
+{
+  "baseURL": "https://api.rebill.dev/v2/",
+  "login": "auth/login/gustavoequise",
+  "signup": "auth/merchant/signup",
+  "item": "item",
+
+  "email": "gustavo@rebill.to",
+  "password": "Password123!",
+  "checkout": "checkout"
+}

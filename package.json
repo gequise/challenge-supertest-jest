@@ -1,0 +1,17 @@
+{
+"name": "supertest-jest",
+"version": "1.0.0",
+"description": "Framework Supertest Jest",
+"main": "index.js",
+"scripts": {
+  "start": "node index.js",
+  "test": "jest --detectOpenHandles --force-exit ",
+  "test:watch": "jest --watch"
+},
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3",
+    "supertest-session": "^4.1.0",
+    "test": "jest --detectOpenHandles --force-exit "
+  }
+}
